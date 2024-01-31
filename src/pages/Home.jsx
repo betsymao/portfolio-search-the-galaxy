@@ -63,10 +63,12 @@ function Home() {
       {/* render search input form component */}
       <Search onChange={handleSearch} query={query} error={error} />
 
-      {/* render collection of API items */}
-      {items && items.map((item, i) => (
-          <Item key={i} item={item} />
-        ))}
+      <div className="collection">
+        {/* render collection of API items */}
+        {items && items.map((item, i) => (
+            <Item key={i} item={item} />
+          ))}
+      </div>
     </>
   );
 }
