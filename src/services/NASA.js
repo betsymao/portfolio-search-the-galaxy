@@ -8,6 +8,6 @@ import config from '../config/config.json';
 export function getItems(query) {
 
     // GET request
-    return axios.get(`${config.NASARootURL}search?q=${query}&page_size=20`);
+    return axios.get(`${config.NASARootURL}search?q=${query}&page_size=10`);
 
 }
