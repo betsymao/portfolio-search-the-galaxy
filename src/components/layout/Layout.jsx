@@ -7,10 +7,12 @@ import Footer from './Footer';
 
 function Layout() {
     return (
-      <> 
-        <Header />
-        <Outlet />
-        <Footer date={new Date().getFullYear()} />
+      <>
+        <div className="container">
+          <Header />
+          <Outlet />
+          <Footer date={new Date().getFullYear()} />
+        </div>
       </>
     );
   }

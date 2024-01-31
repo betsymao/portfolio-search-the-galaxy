@@ -17,10 +17,13 @@ function Search({ onChange, query, error }) {
               />
           </div>
 
-          {/* display error */}
-          <p className="search__error">
-            {error ? error : ''}
-          </p>
+          {/* display any error */}
+          {
+            error 
+            ? <p className="search__error"> {error} </p>
+            : ''
+          }
+        
 
         </form>
       </>

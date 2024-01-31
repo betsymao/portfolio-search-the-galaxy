@@ -57,7 +57,7 @@ function Header() {
           </link>
 
           <div className="logo">
-            <Link to="/">
+            <Link to="/" className="logo__link">
               {/* <img src={Logo} /> */}
               Search the Galaxy
             </Link>
