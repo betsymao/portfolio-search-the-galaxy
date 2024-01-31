@@ -1,0 +1,52 @@
+/* Custom CSS Colours
+   ----------------------------- */
+
+   :root {
+    --dark: #050a0a;
+    --light: #f5fafa;
+ 
+    --primary--light: #FF9F2D;
+    --primary--dark: #804400;
+ 
+    --secondary--light: #FFBF70;
+    --secondary--dark: #572E00;
+ 
+    --accent--light: #F17474;
+    --accent--dark: #AC1111;
+  }
+
+/* Global
+   ----------------------------- */
+
+  body {
+      background: var(--light);
+      color: var(--dark);
+  }
+
+  a {
+    color: var(--accent--dark);
+  }
+
+  a:hover {
+    color: var(--secondary--dark);
+  }
+
+
+
+/* Theme button
+  ----------------------------- */
+ 
+  .btn__dark {
+    color: var(--primary--dark);
+  }
+
+  .btn__dark:hover {
+    color: var(--secondary--dark);
+  }
+
+/* 404 Page
+  ----------------------------- */
+
+  .pageNotFound__title--accent {
+    color: var(--primary--dark);
+  }

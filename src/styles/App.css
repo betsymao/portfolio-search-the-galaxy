@@ -1,0 +1,125 @@
+/* Global
+   ----------------------------- */
+
+   body {
+      font-family: 'Maven Pro', sans-serif;
+   }
+
+   .container {
+      min-height: 100vh;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      width: 75%;
+      margin: auto;
+   }
+
+
+/* Typography
+   ----------------------------- */
+
+   .logo__link {
+      font-family: 'Kanit', sans-serif;
+      font-size: 3rem;
+      display: block;
+      padding: 1.5rem;
+   }
+
+/* Links and buttons
+----------------------------- */
+
+a {
+   text-decoration: none;
+}
+
+/* Header
+----------------------------- */
+
+.header {
+   display: flex;
+   flex: 1;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+/* ThemeBtn
+----------------------------- */
+
+.btn {
+   background: transparent;
+   border: none;
+   border-radius: 6px;
+   padding: 1.5rem;
+   cursor: pointer;
+   font-weight: 700;
+}
+
+/* Search
+----------------------------- */
+
+.search__formGroup {
+   padding: 1.5rem;
+}
+
+.search__formLabel {
+   display: block;
+   margin-bottom: 1rem;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+}
+
+.search__formInput {
+   display: block;
+   width: 50%;
+   padding: 0.5rem;
+}
+
+.search__error {
+   padding: 1.5rem;
+   margin: 0;
+}
+
+
+/* Collection and items
+----------------------------- */
+
+.collection {
+   display: flex;
+   flex-direction: column;
+   gap: 6px;
+   padding: 1.5rem;
+}
+
+.collection__item {
+   flex: 0 0 auto;
+   width: 100%;
+}
+
+.collection__img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+/* Footer
+----------------------------- */
+
+.footer {
+   padding: 1.5rem;
+}
+
+.footer__body {
+   margin: 0;
+   text-align: right;
+}
+
+/* 404 Page
+----------------------------- */
+
+.pageNotFound {
+   padding: 1.5rem;
+}
+
+.pageNotFound__title {
+   margin: 0;
+}
