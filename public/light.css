@@ -1,22 +1,23 @@
 /* Custom CSS Colours
-   ----------------------------- */
+  ----------------------------- */
 
-   :root {
+  :root {
     --dark: #050a0a;
     --light: #f5fafa;
- 
+
     --primary--light: #FF9F2D;
     --primary--dark: #804400;
- 
+
     --secondary--light: #FFBF70;
     --secondary--dark: #572E00;
- 
+
     --accent--light: #F17474;
     --accent--dark: #AC1111;
   }
 
+
 /* Global
-   ----------------------------- */
+  ----------------------------- */
 
   body {
       background: var(--light);
@@ -32,7 +33,6 @@
   }
 
 
-
 /* Theme button
   ----------------------------- */
  
@@ -44,6 +44,7 @@
     color: var(--secondary--dark);
   }
 
+  
 /* 404 Page
   ----------------------------- */
 

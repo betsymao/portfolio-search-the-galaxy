@@ -13,9 +13,20 @@
       margin: auto;
    }
 
+   a {
+      text-decoration: none;
+   }
 
-/* Typography
+/* Header component
    ----------------------------- */
+
+   .header {
+      display: flex;
+      flex: 1;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+   }
 
    .logo__link {
       font-family: 'Kanit', sans-serif;
@@ -24,102 +35,88 @@
       padding: 1.5rem;
    }
 
-/* Links and buttons
------------------------------ */
 
-a {
-   text-decoration: none;
-}
+/* ThemeBtn component
+   ----------------------------- */
 
-/* Header
------------------------------ */
-
-.header {
-   display: flex;
-   flex: 1;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   align-items: center;
-}
-
-/* ThemeBtn
------------------------------ */
-
-.btn {
-   background: transparent;
-   border: none;
-   border-radius: 6px;
-   padding: 1.5rem;
-   cursor: pointer;
-   font-weight: 700;
-}
-
-/* Search
------------------------------ */
-
-.search__formGroup {
-   padding: 1.5rem;
-}
-
-.search__formLabel {
-   display: block;
-   margin-bottom: 1rem;
-   font-family: 'Open Sans', sans-serif;
-   font-weight: 600;
-}
-
-.search__formInput {
-   display: block;
-   width: 50%;
-   padding: 0.5rem;
-}
-
-.search__error {
-   padding: 1.5rem;
-   margin: 0;
-}
+   .btn {
+      background: transparent;
+      border: none;
+      border-radius: 6px;
+      padding: 1.5rem;
+      cursor: pointer;
+      font-weight: 700;
+   }
 
 
-/* Collection and items
------------------------------ */
+/* Search component
+   ----------------------------- */
 
-.collection {
-   display: flex;
-   flex-direction: column;
-   gap: 6px;
-   padding: 1.5rem;
-}
+   .search__formGroup {
+      padding: 1.5rem;
+   }
 
-.collection__item {
-   flex: 0 0 auto;
-   width: 100%;
-}
+   .search__formLabel {
+      display: block;
+      margin-bottom: 1rem;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+   }
 
-.collection__img {
-   width: 100%;
-   height: 100%;
-   object-fit: cover;
-}
+   .search__formInput {
+      display: block;
+      width: 50%;
+      padding: 0.5rem;
+   }
 
-/* Footer
------------------------------ */
+   .search__error {
+      padding: 1.5rem;
+      margin: 0;
+   }
 
-.footer {
-   padding: 1.5rem;
-}
 
-.footer__body {
-   margin: 0;
-   text-align: right;
-}
+/* Collection and Items component
+   ----------------------------- */
+
+   .collection {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      padding: 1.5rem;
+   }
+
+   .collection__item {
+      flex: 0 0 auto;
+      width: 100%;
+   }
+
+   .collection__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   }
+
+   
+/* Footer component
+   ----------------------------- */
+
+   .footer {
+      padding: 1.5rem;
+   }
+
+   .footer__body {
+      margin: 0;
+      text-align: right;
+   }
+
 
 /* 404 Page
------------------------------ */
+   ----------------------------- */
 
-.pageNotFound {
-   padding: 1.5rem;
-}
+   .pageNotFound {
+      padding: 1.5rem;
+   }
 
-.pageNotFound__title {
-   margin: 0;
-}
+   .pageNotFound__title {
+      margin: 0;
+   }

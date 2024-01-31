@@ -1,7 +1,7 @@
 /* Custom CSS Colours
-   ----------------------------- */
+  ----------------------------- */
 
-   :root {
+  :root {
     --dark: #050a0a;
     --light: #f5fafa;
  
@@ -14,6 +14,7 @@
     --accent--light: #F17474;
     --accent--dark: #AC1111;
   }
+
 
 /* Global
    ----------------------------- */
@@ -41,6 +42,7 @@
   .btn__light:hover {
     color: var(--secondary--light);
   }
+
 
 /* 404 Page
   ----------------------------- */
