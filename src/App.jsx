@@ -12,7 +12,8 @@ import Error from './pages/Error';
 import Layout from './components/layout/Layout';
 
 // styles
-import './App.css';
+import '../src/styles/normalize.css';
+import '../src/styles/App.css';
 
 function App() {
   return (
