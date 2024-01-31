@@ -23,11 +23,11 @@ function App() {
         {/* layout component */}
         <Route path='/' element={<Layout />}>
 
-        {/* home page */}
-        <Route index element={<Home />} />
+          {/* home page */}
+          <Route index element={<Home />} />
 
-        {/* error page */}
-        <Route path='*' element={<Error />} />
+          {/* error page */}
+          <Route path='*' element={<Error />} />
 
         </Route>
 
