@@ -27,7 +27,7 @@ function App() {
           <Route index element={<Home />} />
 
           {/* error page */}
-          <Route path='*' element={<Error />} />
+          <Route path='/*' element={<Error />} />
 
         </Route>
 
