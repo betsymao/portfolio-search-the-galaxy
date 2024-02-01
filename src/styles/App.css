@@ -21,6 +21,11 @@
       text-decoration: none;
       font-weight: 600;
       text-transform: uppercase;
+      color: #006113;
+   }
+
+   a:hover {
+      color: #050a0a;
    }
    
 
@@ -123,6 +128,12 @@
 /* 404 Page
    ----------------------------- */
 
+   .center {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+   }
+
    .pageNotFound {
       padding: 1.5rem;
    }
@@ -130,3 +141,7 @@
    .pageNotFound__title {
       margin: 0;
    }
+
+   .pageNotFound__title--accent {
+      color: #AD0000;
+    }

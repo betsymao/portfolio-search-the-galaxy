@@ -45,11 +45,3 @@
   .search__formLabel {
       border-bottom-color: var(--primary--dark);
   }  
-
-
-/* 404 Page
-  ----------------------------- */
-
-  .pageNotFound__title--accent {
-    color: var(--accent--dark);
-  }

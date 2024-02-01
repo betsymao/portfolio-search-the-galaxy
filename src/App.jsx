@@ -26,10 +26,10 @@ function App() {
           {/* home page */}
           <Route index element={<Home />} />
 
-          {/* error page */}
-          <Route path='/*' element={<Error />} />
-
         </Route>
+
+        {/* error page */}
+        <Route path='*' element={<Error />} />
 
       </Routes>
     </>

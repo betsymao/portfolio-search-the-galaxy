@@ -43,11 +43,3 @@
   .search__formLabel {
   border-bottom-color: var(--primary--light);
 }  
-
-
-/* 404 Page
-  ----------------------------- */
-
-  .pageNotFound__title--accent {
-    color: var(--accent--light);
-  }
