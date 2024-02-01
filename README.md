@@ -1,5 +1,7 @@
 # Search the Galaxy
 
+Search the Galaxy is an example UI project.
+
 ## About the Project
 
 View the project at [Search the Galaxy](https://search-the-galaxy-portfolio.onrender.com/).
