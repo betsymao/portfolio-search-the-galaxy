@@ -8,7 +8,7 @@ function Footer({ date }) {
           <div className="footer footer--container">
             <p className="footer__body">
               &copy; {date} Search the Galaxy.
-              Example project by <Link to="/">Betsy</Link>.
+              Example project by <Link to="https://betsymao.onrender.com/">Betsy</Link>.
             </p>
           </div>
         </footer>
